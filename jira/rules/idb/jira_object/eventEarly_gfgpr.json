@@ -1,0 +1,18 @@
+{
+  "name": "eventEarly_gfgpr",
+  "entity": "jira_object",
+  "isActive": true,
+  "ruleType": "earlyEvent",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": false,
+    "delete": false
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "Event (Early): Populate xref",
+  "comments": null,
+  "topics": [
+  ]
+}

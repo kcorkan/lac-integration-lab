@@ -1,0 +1,25 @@
+{
+  "name": "doSecurityTokenPost",
+  "isActive": true,
+  "comments": "This function is a workaround for when we need to do a POST using a SecurityToken and Basic Authentication (normally only used for On-Premise or Sandbox instances or Agile Central);\n*** This should ONLY be used for POSTs using the Security Token *** \nThis is called from: \n*  The Update Agile Central Commit Event on the ac_action table.",
+  "returnType": "String of the return response from Agile Central (if successful) \n\nOR \n\nIf not successful, a response with the Status Code and Errors:\n\n{\n    Status: <status>,\n    statusCode:  <statusCode>,\n    error:  <error>,\n    errorMessage: <errorMessage>\n}",
+  "extendedProperties": null,
+  "parameters": {
+    "system_ident": {
+      "parameterType": "number",
+      "isRequired": true,
+      "comments": "Enter description here"
+    },
+    "url": {
+      "parameterType": "string",
+      "isRequired": true,
+      "comments": "Enter description here"
+    },
+    "payload": {
+      "parameterType": "string",
+      "isRequired": true,
+      "comments": "Enter description here"
+    }
+  },
+  "functionType": "apiLevel"
+}

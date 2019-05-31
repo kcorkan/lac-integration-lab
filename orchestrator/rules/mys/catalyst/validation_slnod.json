@@ -1,0 +1,15 @@
+{
+  "name": "validation_slnod",
+  "entity": "catalyst",
+  "isActive": true,
+  "ruleType": "validation",
+  "codeType": "JavaScript",
+  "errorMessage": "Source Data must be provided when posting a catalyst.",
+  "problemAttributes": [
+  ],
+  "isAutoTitle": false,
+  "title": "Validation: catalyst data",
+  "comments": null,
+  "topics": [
+  ]
+}

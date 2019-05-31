@@ -1,0 +1,75 @@
+{
+  "name": "catalyst",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "catalyst",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "source_data",
+      "attribute": "source_data",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "last_updated",
+      "attribute": "last_updated",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "version",
+      "attribute": "version",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "xref_id",
+      "attribute": "xref_id",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "source_object_type",
+      "attribute": "source_object_type",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "source_object_id",
+      "attribute": "source_object_id",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "source_system_ident",
+      "attribute": "source_system_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "source_api_def_ident",
+      "attribute": "source_api_def_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "source_api_ident",
+      "attribute": "source_api_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "source_action",
+      "attribute": "source_action",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

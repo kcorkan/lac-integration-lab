@@ -1,0 +1,14 @@
+{
+  "name": "fields",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "ac_sync_cfg_fld",
+  "join": "\"ac_sync_cfg_ident\" = [\"ident\"]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

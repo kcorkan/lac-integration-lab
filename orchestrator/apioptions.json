@@ -1,0 +1,157 @@
+{
+  "Aggregate Default Override": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "Allow Swagger without authentication": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "Audit User Transactions": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "Binary Output Encoding": {
+    "dataType": "enum",
+    "value": "hex",
+    "defaultValue": "hex"
+  },
+  "Checksum Size Limit": {
+    "dataType": "integer",
+    "value": 2000,
+    "defaultValue": 2000
+  },
+  "Chunk Size Default": {
+    "dataType": "integer",
+    "value": 20,
+    "defaultValue": 20
+  },
+  "Default response format": {
+    "dataType": "enum",
+    "value": "json",
+    "defaultValue": "json"
+  },
+  "Disallow free-form filters and sorts": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "Enable HTTP Basic Authentication": {
+    "dataType": "boolean",
+    "value": true,
+    "defaultValue": true
+  },
+  "Enable In-Memory Logs": {
+    "dataType": "boolean",
+    "value": true,
+    "defaultValue": true
+  },
+  "Force Binary Data as an Object": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "Force Consistent Pagination when no primary key": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "HTTPS only": {
+    "dataType": "boolean",
+    "value": false,
+    "defaultValue": false
+  },
+  "Include metadata section in responses": {
+    "dataType": "boolean",
+    "value": true,
+    "defaultValue": true
+  },
+  "Inline Limit Default": {
+    "dataType": "integer",
+    "value": 2000,
+    "defaultValue": 2000
+  },
+  "JSON NaN (Quiet)": {
+    "dataType": "string",
+    "value": "null",
+    "defaultValue": "null"
+  },
+  "JSON NaN (Signaling)": {
+    "dataType": "string",
+    "value": "null",
+    "defaultValue": "null"
+  },
+  "JSON Negative Infinity": {
+    "dataType": "string",
+    "value": "null",
+    "defaultValue": "null"
+  },
+  "JSON Positive Infinity": {
+    "dataType": "string",
+    "value": "null",
+    "defaultValue": "null"
+  },
+  "Maximum Page Size": {
+    "dataType": "integer",
+    "value": 5000,
+    "defaultValue": 5000
+  },
+  "Metadata name": {
+    "dataType": "string",
+    "value": "@metadata",
+    "defaultValue": "@metadata"
+  },
+  "Page Size Default": {
+    "dataType": "integer",
+    "value": 100,
+    "defaultValue": 20
+  },
+  "Permit Authorization parameter in URL": {
+    "dataType": "boolean",
+    "value": true,
+    "defaultValue": false
+  },
+  "Provide detailed security debugging": {
+    "dataType": "enum",
+    "value": "0",
+    "defaultValue": "0"
+  },
+  "Realm for HTTP Basic Authentication": {
+    "dataType": "string",
+    "value": null,
+    "defaultValue": null
+  },
+  "Stored Procedure Inline Limit": {
+    "dataType": "integer",
+    "value": 2000,
+    "defaultValue": 2000
+  },
+  "Stored Procedure Row Limit": {
+    "dataType": "integer",
+    "value": 100,
+    "defaultValue": 100
+  },
+  "Tech docs URL": {
+    "dataType": "string",
+    "value": null,
+    "defaultValue": null
+  },
+  "Type base URI": {
+    "dataType": "string",
+    "value": "urn:caliveapicreator:",
+    "defaultValue": "urn:caliveapicreator:"
+  },
+  "User docs URL": {
+    "dataType": "string",
+    "value": null,
+    "defaultValue": null
+  },
+  "XML Document Root Element Tag Name": {
+    "dataType": "string",
+    "value": "root",
+    "defaultValue": "root"
+  }
+}

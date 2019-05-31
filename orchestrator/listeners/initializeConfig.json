@@ -1,0 +1,10 @@
+{
+  "name": "initializeConfig",
+  "isActive": true,
+  "loggingLevel": "Warning",
+  "isSingleServer": false,
+  "description": null,
+  "connectionName": null,
+  "providerName": "Startup",
+  "parameters": null
+}

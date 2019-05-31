@@ -1,0 +1,75 @@
+{
+  "name": "fieldDefinitions",
+  "description": "This resource uses a response event to dynamically build a jolt json transform spec that can transform an Agile Central Payload to acObject json.  This spec is driven by the fields defined for the system.  The resource returns both in this form: \n\n{\n        spec: <spec>,\n        fieldDefs: ...\n}\n\nExample of a built spec to be sent to Shiftr transform. \n {\n    \"*\": {\n      \"#1\": \"[&1].system_ident\",\n      \"_refObjectUUID\": \"[&1].object_uuid\",\n      \"_type\": \"[&1].object_type\",\n      \"_objectVersion\": \"[&1].revision\",\n      \"LastUpdated\": [\"[&1].last_updated\", \"[&1].fields[0].last_updated\", \"[&1].fields[1].last_updated\"],\n      \"Name\": {\n        \"@(1,Name)\": [\"[&2].fields[0].user_value\", \"[&2].fields[0].system_value\"],\n        \"$\": \"[&2].fields[0].field_ident\"\n      },\n      \"Project\": {\n        \"Name\": \"[&2].fields[1].user_value\",\n        \"_ref\": \"[&2].fields[1].system_value\",\n        \"$\": \"[&2].fields[1].field_ident.id\"\n      }\n    }\n  }",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "ac_field_def",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "ident",
+      "attribute": "ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "name",
+      "attribute": "name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "id",
+      "attribute": "id",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "object_type",
+      "attribute": "object_type",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "system_ident",
+      "attribute": "system_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "user_attribute",
+      "attribute": "user_attribute",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "system_attribute",
+      "attribute": "system_attribute",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "type_def",
+      "attribute": "type_def",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "attribute_type",
+      "attribute": "attribute_type",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "attribute_type_def",
+      "attribute": "attribute_type_def",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

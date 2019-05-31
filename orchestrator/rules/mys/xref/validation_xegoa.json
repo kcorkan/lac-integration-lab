@@ -1,0 +1,15 @@
+{
+  "name": "validation_xegoa",
+  "entity": "xref",
+  "isActive": true,
+  "ruleType": "validation",
+  "codeType": "JavaScript",
+  "errorMessage": "Object ID ({object_id}) and  Object Type ({object_type}) must not be null when saving a catalyst.  API ID and System ID must be a number.",
+  "problemAttributes": [
+  ],
+  "isAutoTitle": false,
+  "title": "Validation: Catalyst xref",
+  "comments": null,
+  "topics": [
+  ]
+}

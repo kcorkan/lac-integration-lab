@@ -1,0 +1,22 @@
+{
+  "name": "classifier",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "message_classifier",
+  "join": "\"ident\" = [\"message_classifier_ident\"]",
+  "isCollection": false,
+  "isCombined": true,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "classification",
+      "attribute": "classification",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

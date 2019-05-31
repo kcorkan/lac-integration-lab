@@ -1,0 +1,14 @@
+{
+  "name": "Run Reactions",
+  "isRepeating": true,
+  "startTimestampOffset": null,
+  "endTimestampOffset": null,
+  "isNoOverlap": true,
+  "isActive": true,
+  "description": null,
+  "maximumLogAgeSeconds": 2592000,
+  "isSingleServer": true,
+  "crontab": "/5 * * * * ? *",
+  "isLogErrorOnly": false,
+  "loggingLevel": "Fine"
+}

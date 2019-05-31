@@ -1,0 +1,928 @@
+[
+  {
+    "parentEntity": "mys:ac_field_def",
+    "childEntity": "mys:ac_collection",
+    "roleToParent": "ac_field_def",
+    "roleToChild": "ac_collection_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "field_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_field_def",
+    "childEntity": "mys:ac_field",
+    "roleToParent": "ac_field_def",
+    "roleToChild": "ac_field_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "field_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_field_def",
+    "childEntity": "mys:ac_sync_cfg_fld",
+    "roleToParent": "ac_field_def",
+    "roleToChild": "ac_sync_cfg_fld_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_field_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_field_def",
+    "childEntity": "mys:jira_field",
+    "roleToParent": "ac_field_def",
+    "roleToChild": "jira_field_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "field_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_object",
+    "childEntity": "mys:ac_action",
+    "roleToParent": "ac_object",
+    "roleToChild": "ac_action_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_object",
+    "childEntity": "mys:ac_collection",
+    "roleToParent": "ac_object",
+    "roleToChild": "ac_collection_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_object",
+    "childEntity": "mys:ac_field",
+    "roleToParent": "ac_object",
+    "roleToChild": "ac_field_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_object",
+    "childEntity": "mys:ac_webhook",
+    "roleToParent": "ac_object",
+    "roleToChild": "ac_webhook_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_sync_cfg",
+    "childEntity": "mys:ac_sync_cfg_fld",
+    "roleToParent": "ac_sync_cfg",
+    "roleToChild": "ac_sync_cfg_fld_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_sync_cfg_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_sync_cfg",
+    "childEntity": "mys:ac_sync_cfg_status",
+    "roleToParent": "ac_sync_cfg",
+    "roleToChild": "ac_sync_cfg_status_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "ac_sync_cfg_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_system",
+    "childEntity": "mys:ac_field_def",
+    "roleToParent": "ac_system",
+    "roleToChild": "ac_field_def_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_system",
+    "childEntity": "mys:ac_object",
+    "roleToParent": "ac_system",
+    "roleToChild": "ac_object_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:ac_system",
+    "childEntity": "mys:ac_sync_cfg",
+    "roleToParent": "ac_system",
+    "roleToChild": "ac_sync_cfg_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:catalyst",
+    "roleToParent": "api_def",
+    "roleToChild": "catalyst_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "source_api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:cfg_obj",
+    "roleToParent": "api_def_via_source_api_def_ident",
+    "roleToChild": "cfg_obj_List_via_source_api_def_ident",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "source_api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:cfg_obj",
+    "roleToParent": "api_def",
+    "roleToChild": "cfg_obj_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "source_api_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:cfg_obj",
+    "roleToParent": "api_def_via_target_api_def_ident",
+    "roleToChild": "cfg_obj_List_via_target_api_def_ident",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "target_api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:cfg_obj",
+    "roleToParent": "api_def_via_target_api_ident",
+    "roleToChild": "cfg_obj_List_via_target_api_ident",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "target_api_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:reaction",
+    "roleToParent": "api_def",
+    "roleToChild": "reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "target_api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:reconciliation",
+    "roleToParent": "api_def",
+    "roleToChild": "reconciliation_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "source_api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:reconciliation",
+    "roleToParent": "api_def_via_target_api_def_ident",
+    "roleToChild": "reconciliation_List_via_target_api_def_ident",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "target_api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:xref",
+    "roleToParent": "api_def_via_api_def_ident",
+    "roleToChild": "xref_List_via_api_def_ident",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "api_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:api_def",
+    "childEntity": "mys:xref",
+    "roleToParent": "api_def",
+    "roleToChild": "xref_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "api_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:catalyst",
+    "childEntity": "mys:catalyst_error",
+    "roleToParent": "catalyst",
+    "roleToChild": "catalyst_error_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "catalyst_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:catalyst",
+    "childEntity": "mys:reaction",
+    "roleToParent": "catalyst",
+    "roleToChild": "reaction_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "catalyst_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:cfg_obj",
+    "childEntity": "mys:catalyst_reaction",
+    "roleToParent": "cfg_obj",
+    "roleToChild": "catalyst_reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:cfg_obj",
+    "childEntity": "mys:cfg_obj_fld",
+    "roleToParent": "cfg_obj",
+    "roleToChild": "cfg_obj_fld_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:cfg_obj",
+    "childEntity": "mys:reaction",
+    "roleToParent": "cfg_obj",
+    "roleToChild": "reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:cfg_obj",
+    "childEntity": "mys:status_message",
+    "roleToParent": "cfg_obj",
+    "roleToChild": "status_message_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:cfg_obj_fld",
+    "childEntity": "mys:cfg_obj_fld_map",
+    "roleToParent": "cfg_obj_fld",
+    "roleToChild": "cfg_obj_fld_map_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_fld_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_field_def",
+    "childEntity": "mys:jira_field",
+    "roleToParent": "jira_field_def",
+    "roleToChild": "jira_field_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "field_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_field_def",
+    "childEntity": "mys:jira_link",
+    "roleToParent": "jira_field_def",
+    "roleToChild": "jira_link_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "field_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_field_def",
+    "childEntity": "mys:jira_sync_cfg_fld",
+    "roleToParent": "jira_field_def",
+    "roleToChild": "jira_sync_cfg_fld_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "jira_field_def_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_link_def",
+    "childEntity": "mys:jira_link",
+    "roleToParent": "jira_link_def",
+    "roleToChild": "jira_link_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "id",
+      "system_ident"
+    ],
+    "childColumns": [
+      "jira_link_id",
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_object",
+    "childEntity": "mys:jira_action",
+    "roleToParent": "jira_object",
+    "roleToChild": "jira_action_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "jira_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_object",
+    "childEntity": "mys:jira_field",
+    "roleToParent": "jira_object",
+    "roleToChild": "jira_field_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "jira_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_object",
+    "childEntity": "mys:jira_link",
+    "roleToParent": "jira_object",
+    "roleToChild": "jira_link_List",
+    "deleteRule": "Cascade",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "inward_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_object",
+    "childEntity": "mys:jira_link",
+    "roleToParent": "jira_object_via_outward_ident",
+    "roleToChild": "jira_link_List_via_outward_ident",
+    "deleteRule": "Cascade",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "outward_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_object",
+    "childEntity": "mys:jira_webhook",
+    "roleToParent": "jira_object",
+    "roleToChild": "jira_webhook_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "jira_object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_sync_cfg",
+    "childEntity": "mys:jira_sync_cfg_fld",
+    "roleToParent": "jira_sync_cfg",
+    "roleToChild": "jira_sync_cfg_fld_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "jira_sync_cfg_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_sync_cfg",
+    "childEntity": "mys:jira_sync_cfg_status",
+    "roleToParent": "jira_sync_cfg",
+    "roleToChild": "jira_sync_cfg_status_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "jira_sync_cfg_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_system",
+    "childEntity": "mys:jira_field_def",
+    "roleToParent": "jira_system",
+    "roleToChild": "jira_field_def_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_system",
+    "childEntity": "mys:jira_link_def",
+    "roleToParent": "jira_system",
+    "roleToChild": "jira_link_def_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_system",
+    "childEntity": "mys:jira_object",
+    "roleToParent": "jira_system",
+    "roleToChild": "jira_object_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_system",
+    "childEntity": "mys:jira_sync_cfg",
+    "roleToParent": "jira_system",
+    "roleToChild": "jira_sync_cfg_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:jira_webhook_status_def",
+    "childEntity": "mys:jira_webhook",
+    "roleToParent": "jira_webhook_status_def",
+    "roleToChild": "jira_webhook_List",
+    "deleteRule": "No Action",
+    "updateRule": "Cascade",
+    "parentColumns": [
+      "status_id"
+    ],
+    "childColumns": [
+      "status_id"
+    ]
+  },
+  {
+    "parentEntity": "mys:message_classifier",
+    "childEntity": "mys:status_message",
+    "roleToParent": "message_classifier",
+    "roleToChild": "status_message_List",
+    "deleteRule": "Set NULL",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "message_classifier_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:reaction",
+    "childEntity": "mys:status_message",
+    "roleToParent": "reaction",
+    "roleToChild": "status_message_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "reaction_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:reaction_status",
+    "childEntity": "mys:reaction",
+    "roleToParent": "reaction_status",
+    "roleToChild": "reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "status_id"
+    ],
+    "childColumns": [
+      "status"
+    ]
+  },
+  {
+    "parentEntity": "mys:status_message",
+    "childEntity": "mys:catalyst_reaction",
+    "roleToParent": "status_message",
+    "roleToChild": "catalyst_reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "status_message_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:status_message",
+    "childEntity": "mys:reaction",
+    "roleToParent": "status_message",
+    "roleToChild": "reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "status_message_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:status_type",
+    "childEntity": "mys:catalyst_reaction",
+    "roleToParent": "status_type",
+    "roleToChild": "catalyst_reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "status"
+    ]
+  },
+  {
+    "parentEntity": "mys:tmp_field_def",
+    "childEntity": "mys:tmp_field",
+    "roleToParent": "tmp_field_def",
+    "roleToChild": "tmp_field_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "field_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:tmp_object",
+    "childEntity": "mys:tmp_action",
+    "roleToParent": "tmp_object",
+    "roleToChild": "tmp_action_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:tmp_object",
+    "childEntity": "mys:tmp_field",
+    "roleToParent": "tmp_object",
+    "roleToChild": "tmp_field_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "object_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:tmp_system",
+    "childEntity": "mys:tmp_field_def",
+    "roleToParent": "tmp_system",
+    "roleToChild": "tmp_field_def_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:tmp_system",
+    "childEntity": "mys:tmp_object",
+    "roleToParent": "tmp_system",
+    "roleToChild": "tmp_object_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "system_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:warehouse_source_item",
+    "childEntity": "mys:warehouse_time",
+    "roleToParent": "warehouse_source_item",
+    "roleToChild": "warehouse_time_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "source_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:xref",
+    "childEntity": "mys:jira_field",
+    "roleToParent": "xref",
+    "roleToChild": "jira_field_List",
+    "deleteRule": "Cascade",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "xref_ident"
+    ]
+  },
+  {
+    "parentEntity": "mys:xref",
+    "childEntity": "mys:xref",
+    "roleToParent": "xref",
+    "roleToChild": "xref_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "api_ident"
+    ]
+  },
+  {
+    "parentEntity": "x:api_def",
+    "childEntity": "x:xref",
+    "roleToParent": "api_def",
+    "roleToChild": "xref_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "api_id"
+    ]
+  },
+  {
+    "parentEntity": "x:catalyst",
+    "childEntity": "x:reaction",
+    "roleToParent": "catalyst",
+    "roleToChild": "reaction_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "catalyst_ident"
+    ]
+  },
+  {
+    "parentEntity": "x:cfg_obj",
+    "childEntity": "x:cfg_obj_fld",
+    "roleToParent": "cfg_obj",
+    "roleToChild": "cfg_obj_fld_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_ident"
+    ]
+  },
+  {
+    "parentEntity": "x:cfg_obj",
+    "childEntity": "x:reaction",
+    "roleToParent": "reactionConfig",
+    "roleToChild": "reactions",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_ident"
+    ]
+  },
+  {
+    "parentEntity": "x:cfg_obj_fld",
+    "childEntity": "x:cfg_obj_fld_map",
+    "roleToParent": "cfg_obj_fld",
+    "roleToChild": "cfg_obj_fld_map_List",
+    "deleteRule": "No Action",
+    "updateRule": "No Action",
+    "parentColumns": [
+      "ident"
+    ],
+    "childColumns": [
+      "cfg_obj_fld_ident"
+    ]
+  },
+  {
+    "parentEntity": "x:reaction",
+    "childEntity": "x:status_message",
+    "roleToParent": "reaction",
+    "roleToChild": "status_message_List",
+    "deleteRule": "Set NULL",
+    "updateRule": "Set NULL",
+    "parentColumns": [
+      "status_message_ident"
+    ],
+    "childColumns": [
+      "ident"
+    ]
+  }
+]

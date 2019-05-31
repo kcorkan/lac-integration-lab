@@ -1,0 +1,18 @@
+{
+  "name": "eventEarly_htmlFromWiki",
+  "entity": "jira_field",
+  "isActive": true,
+  "ruleType": "earlyEvent",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": true,
+    "delete": false
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "Event (Early): Set user_value to HTML for wiki text",
+  "comments": "* Only going from Jira and for fields whose field def schema_type is wiki\n* We save as wiki in system_value because that's what jira likes and html in user_value because that's what we like.\n* Uses an endpoint in Jira to get the html from wiki text.\n* The html endpoint gives us image urls for the emoticons.  We change them back to wiki text so we don't have to translate over and over.\n* Images in either system are not going to be displayed in the other one.",
+  "topics": [
+  ]
+}

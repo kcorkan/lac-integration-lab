@@ -1,0 +1,57 @@
+{
+  "name": "syncConfig",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_sync_cfg",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "ident",
+      "attribute": "ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "system_ident",
+      "attribute": "system_ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "name",
+      "attribute": "name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "object_type",
+      "attribute": "object_type",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "query",
+      "attribute": "query",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "ordinal",
+      "attribute": "ordinal",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "last_run",
+      "attribute": "last_run",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

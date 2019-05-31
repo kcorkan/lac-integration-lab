@@ -1,0 +1,57 @@
+{
+  "name": "_toJira",
+  "description": "[Private] This is called when sending a reaction from another system to Jira.  The key is object_type, xref_id and system_ident since object_key and object_id may not be defined yet.",
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_object",
+  "isCollection": false,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "deleted",
+      "attribute": "deleted",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "object_id",
+      "attribute": "object_id",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "object_key",
+      "attribute": "object_key",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "object_type",
+      "attribute": "object_type",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "xref_id",
+      "attribute": "xref_id",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "system_ident",
+      "attribute": "system_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "last_updated",
+      "attribute": "last_updated",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

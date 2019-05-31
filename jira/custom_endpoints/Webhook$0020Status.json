@@ -1,0 +1,13 @@
+{
+  "name": "Webhook Status",
+  "isActive": true,
+  "description": null,
+  "requiresAuthentication": true,
+  "urlPattern": "display/webhook/.*",
+  "appliesTo": {
+    "get": true,
+    "put": false,
+    "post": false,
+    "delete": false
+  }
+}

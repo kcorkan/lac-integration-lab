@@ -1,0 +1,8 @@
+{
+  "passwordStyle": "SKIP",
+  "apiOptionStyle": "EMIT_ALL",
+  "authTokenStyle": "SKIP_AUTO",
+  "skipUrlFragmentWrapping": false,
+  "libraryStyle": "EMIT_ALL",
+  "schemaCacheStyle": "DO_NOT_EMIT"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "catalyst_req_event",
+  "eventType": "request",
+  "comments": null,
+  "isActive": false
+}

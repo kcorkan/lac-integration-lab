@@ -1,0 +1,8 @@
+{
+  "name": "runReactionBatch",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "JavaScript",
+  "isCollection": true,
+  "joinCondition": null
+}

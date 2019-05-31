@@ -1,0 +1,46 @@
+{
+  "name": "jira_system",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_system",
+  "join": "\"ident\" = [\"system_ident\"]",
+  "isCollection": false,
+  "isCombined": true,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "username",
+      "attribute": "username",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "pwd",
+      "attribute": "pwd",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "url",
+      "attribute": "url",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "invalid_status",
+      "attribute": "invalid_status",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "blocked_status",
+      "attribute": "blocked_status",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

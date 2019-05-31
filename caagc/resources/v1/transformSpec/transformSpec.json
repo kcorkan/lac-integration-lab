@@ -1,0 +1,8 @@
+{
+  "name": "transformSpec",
+  "description": "This resource returns a jolt spec (https://github.com/bazaarvoice/jolt) to transform an acObject resource to an Agile Central payload.",
+  "siblingRank": 100,
+  "resourceType": "JavaScript",
+  "isCollection": false,
+  "joinCondition": null
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Dashboard User",
+  "description": null,
+  "defaultTablePermission": "N",
+  "defaultViewPermission": "N",
+  "defaultFunctionPermission": "N",
+  "globals": [
+  ],
+  "apiVisibility": {
+    "table": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "view": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "resource": {
+      "isRestricted": true,
+      "restrictedTo": [
+        "v1/webhook",
+        "v1/webhook_status"
+      ]
+    },
+    "procedure": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "metatable": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "function": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    }
+  },
+  "entityPermission": {
+    "read webhook status": {
+      "entity": "idb:jira_webhook_status_def",
+      "description": null,
+      "accessLevels": [
+        "READ"
+      ],
+      "rowFilter": null,
+      "columnFilter": {
+        "isRestricted": false,
+        "restrictedTo": null
+      }
+    },
+    "read webhooks": {
+      "entity": "idb:jira_webhook",
+      "description": null,
+      "accessLevels": [
+        "READ",
+        "UPDATE"
+      ],
+      "rowFilter": null,
+      "columnFilter": {
+        "isRestricted": false,
+        "restrictedTo": null
+      }
+    }
+  },
+  "functionPermission": {
+    "Permission vbubkbggvu": {
+      "function": "rerun",
+      "description": null,
+      "accessLevels": [
+        "EXECUTE"
+      ]
+    }
+  }
+}

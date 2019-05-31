@@ -1,0 +1,52 @@
+{
+  "name": "fields",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_field",
+  "join": "\"jira_object_ident\"= [\"ident\"] and \"last_updated\" = [\"last_updated\"]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": "",
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "ident",
+      "attribute": "ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "jira_object_ident",
+      "attribute": "jira_object_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "field_ident",
+      "attribute": "field_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "system_value",
+      "attribute": "system_value",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "user_value",
+      "attribute": "user_value",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "last_updated",
+      "attribute": "last_updated",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

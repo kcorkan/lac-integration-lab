@@ -1,0 +1,13 @@
+{
+  "name": "Catalyst View",
+  "isActive": true,
+  "description": null,
+  "requiresAuthentication": false,
+  "urlPattern": "display/reaction/.*",
+  "appliesTo": {
+    "get": true,
+    "put": false,
+    "post": false,
+    "delete": false
+  }
+}

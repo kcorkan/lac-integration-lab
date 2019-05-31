@@ -1,0 +1,14 @@
+{
+  "name": "Dashboard Token",
+  "authToken": "7KSPF4PGZimw9iuCOoyd",
+  "description": null,
+  "userIdentifier": null,
+  "isActive": true,
+  "expiration": null,
+  "logging": "*=FINE",
+  "roles": [
+    "Dashboard User"
+  ],
+  "globals": {
+  }
+}

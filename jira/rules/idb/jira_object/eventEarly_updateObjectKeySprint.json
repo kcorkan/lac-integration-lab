@@ -1,0 +1,18 @@
+{
+  "name": "eventEarly_updateObjectKeySprint",
+  "entity": "jira_object",
+  "isActive": true,
+  "ruleType": "earlyEvent",
+  "asynchronous": false,
+  "appliesTo": {
+    "insert": true,
+    "update": true,
+    "delete": false
+  },
+  "codeType": "JavaScript",
+  "isAutoTitle": false,
+  "title": "Event (Early): Update object_key for Sprints",
+  "comments": "We update the object_key for sprints to the object ID since a sprint has no object key.",
+  "topics": [
+  ]
+}
