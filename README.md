@@ -1,2 +1,2 @@
-# lac-integration-lab
-Rally-Jira Integration using Live API Creator
+# TEAMSPACE
+This folder contains definitions for teamspace.
