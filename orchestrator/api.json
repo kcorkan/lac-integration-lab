@@ -1,7 +1,0 @@
-{
-  "name": "Orchestrator API",
-  "urlFragment": "orchestrator",
-  "comments": "API to orchestrate synchronization between defined systems.",
-  "isEnabled": true,
-  "authProviderName": "Built-in authentication"
-}

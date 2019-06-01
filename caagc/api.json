@@ -1,7 +1,0 @@
-{
-  "name": "Agile Central API",
-  "urlFragment": "caagc",
-  "comments": "API to interact with Agile Central systems",
-  "isEnabled": true,
-  "authProviderName": "Built-in authentication"
-}

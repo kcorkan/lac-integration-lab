@@ -1,0 +1,13 @@
+{
+  "name": "integration_dev",
+  "fullname": "API developer for TeamSpace - Integration TeamSpace",
+  "isActive": true,
+  "comments": null,
+  "keyLifetimeSeconds": null,
+  "passwordHash": "oDKbMzI/Lpq103pci/CrIokJ/DsjdwjFrCsGsODF3nYsFUwHBj/I2+khymRZY5yWLMewRtvo7DH/3KACNccOnA==",
+  "passwordSalt": "v1hgivaOxbfngY0bL6mOfkvb5yXmJL3SzPP6iwvK",
+  "roles": [
+    "Account admin",
+    "Data admin"
+  ]
+}

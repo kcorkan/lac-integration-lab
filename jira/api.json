@@ -1,7 +1,0 @@
-{
-  "name": "Jira API",
-  "urlFragment": "jira",
-  "comments": "API to interact with JIRA systems",
-  "isEnabled": true,
-  "authProviderName": "Built-in authentication"
-}
