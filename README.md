@@ -21,7 +21,7 @@
 
 ![Alt Text](/images/login.png "CA Live API Creator Login")
 
-9.  You should see the following 3 APIs:
+9. When logged into Live API Creator, notice that you are in the integration teamspace and the following 3 APIs:
 * Agile Central API
 * Jira API
 * Orchestrator API 
