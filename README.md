@@ -19,7 +19,7 @@
 7.  Logout of the Live API Creator Server (if logged in)
 8.  Login to the Live API Creator Server with the credentials:
 
-![ScreenShot](./images/login.png, "CA Live API Creator Login")
+![Alt Text](/images/login.png, "CA Live API Creator Login")
 
 9.  You should see the following 3 APIs:
 * Agile Central API
