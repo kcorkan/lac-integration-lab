@@ -1,2 +1,3 @@
-# TEAMSPACE
-This folder contains definitions for teamspace.
+# Lab: Getting Started
+
+## Installation Instructions 
