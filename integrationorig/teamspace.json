@@ -1,6 +1,0 @@
-{
-  "name": "Integration TeamSpace",
-  "urlFragment": "integration",
-  "description": "The TeamSpace [Integration TeamSpace] has been created.\n\nYou can forward the TeamSpace user credentials for that user to edit, or you can do the following:\n -  Log in to API Creator as this TeamSpace user, select Your TeamSpace from the gear icon menu, select the user from the TeamSpace Users list, and then edit the password.\n -  Open the CA Live API Creator Admin API (Admin API), in the Manage section, click Users, select the TeamSpace user, and then edit the password.\n",
-  "isActive": true
-}

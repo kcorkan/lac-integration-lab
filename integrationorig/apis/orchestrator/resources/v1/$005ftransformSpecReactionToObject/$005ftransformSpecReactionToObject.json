@@ -1,8 +1,0 @@
-{
-  "name": "_transformSpecReactionToObject",
-  "description": "{\n  \"target_data\": {\n    \"fB_1534950424974\": \"B\",\n    \"c\": \"d\",\n    \"e\": \"f\"\n  },\n  \"target_api_def_ident\": 2,\n  \"ident\": 33,\n  \"target_object_id\": null,\n  \"xref_id\": \"81cb1cb9-ad66-40a7-9ee9-4c208c667752\",\n  \"cfg_obj_ident\": 39,\n  \"status_message_ident\": null,\n  \"target_object_type\": \"type_B_1534950424974\",\n  \"catalyst_ident\": 221,\n  \"target_system_ident\": 1,\n  \"last_updated\": \"aaaa\",\n  \"status\": 1\n}",
-  "siblingRank": 100,
-  "resourceType": "JavaScript",
-  "isCollection": true,
-  "joinCondition": null
-}
