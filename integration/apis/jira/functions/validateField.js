@@ -19,9 +19,10 @@ if (parameters.objectType.toLowerCase() === "sprint"){
     var fields = SysUtility.restGet(url,params,authHeaders);
     
     var fieldRe = RegExp("^" + decodedField + "$","i");
-    log.debug('[Jira API][validateField] decodedField' + decodedField);
+    log.debug('[Jira API][validateField] decodedField' + decodedField+ fields);
     fields = JSON.parse(fields);
     var foundField = _.find(fields, function(field){
+        log.debug('field.id' + field.id);
         return fieldRe.test(field.id) || fieldRe.test(field.name);
     });
     

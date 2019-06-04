@@ -1,21 +1,25 @@
 # Lab: Getting Started
 
-## Prerequisites 
- You are running the Live API Creator server locally 
+## Prerequisites
+ You are running the Live API Creator server locally
 
-## Installation Instructions 
+## Installation Instructions
 1.  Stop the Live API Creator server
-2.  Clone the repository into a local repository outside of the Live API Creator Server folder structure 
-3.  Change directory to the cloned git repository 
+2.  Clone the repository into a local repository outside of the Live API Creator Server folder structure
+3.  Change directory to the cloned git repository
 4.  Copy the Integration Derby database into the Live API Creator Server folder:
     ```
     cp -f ./UserFiles/Integration <Live API Creator Folder>/CALiveAPICreator/
     ```
+5.  Copy the integration utils jar into the lib directory of the webserver
+    ```
+    cp -f ./UserFiles/integration-utils-1.0-SNAPSHOT-jar-with-dependencies.jar <Live API Creator Folder>/CALiveAPICreator/webapps/CALiveAPICreator/WEB-INF/lib/
+    ```
 5.  Copy the ./integration folder into the Live API Creator Server teamspaces folder:
-   ``` 
-   cp -f ./integration <Live API Creator Folder>/CALiveAPICreator/jetty.repository/teamspaces 
-   ```
-6.  Start the Live API Creator Server 
+     ```
+     cp -f ./integration <Live API Creator Folder>/CALiveAPICreator/jetty.repository/teamspaces
+     ```
+6.  Start the Live API Creator Server
 7.  Logout of the Live API Creator Server (if logged in)
 8.  Login to the Live API Creator Server with the credentials:
 
@@ -24,6 +28,6 @@
 9. When logged into Live API Creator, notice that you are in the integration teamspace and the following 3 APIs:
 * Agile Central API
 * Jira API
-* Orchestrator API 
+* Orchestrator API
 
 ![Alt Text](/images/apis.png "Integration Teamspaces")

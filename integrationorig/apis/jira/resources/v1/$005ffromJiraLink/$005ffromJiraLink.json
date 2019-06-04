@@ -1,0 +1,51 @@
+{
+  "name": "_fromJiraLink",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_link",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "deleted",
+      "attribute": "deleted",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "ident",
+      "attribute": "ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "field_ident",
+      "attribute": "field_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "outward_ident",
+      "attribute": "outward_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "inward_ident",
+      "attribute": "inward_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "last_updated",
+      "attribute": "last_updated",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

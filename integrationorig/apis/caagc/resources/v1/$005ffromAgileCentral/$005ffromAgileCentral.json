@@ -1,0 +1,63 @@
+{
+  "name": "_fromAgileCentral",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "ac_object",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "object_uuid",
+      "attribute": "object_uuid",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "object_type",
+      "attribute": "object_type",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "xref_id",
+      "attribute": "xref_id",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "system_ident",
+      "attribute": "system_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "last_updated",
+      "attribute": "last_updated",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "revision",
+      "attribute": "revision",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "deleted",
+      "attribute": "deleted",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "object_key",
+      "attribute": "object_key",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

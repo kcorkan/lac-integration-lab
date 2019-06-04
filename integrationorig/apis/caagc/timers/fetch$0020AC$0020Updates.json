@@ -1,0 +1,14 @@
+{
+  "name": "fetch AC Updates",
+  "isRepeating": true,
+  "startTimestampOffset": null,
+  "endTimestampOffset": null,
+  "isNoOverlap": true,
+  "isActive": true,
+  "description": null,
+  "maximumLogAgeSeconds": 2592000,
+  "isSingleServer": true,
+  "crontab": "2/10 * * * * ? *",
+  "isLogErrorOnly": false,
+  "loggingLevel": "Fine"
+}

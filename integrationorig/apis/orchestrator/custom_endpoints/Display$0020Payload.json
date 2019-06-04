@@ -1,0 +1,13 @@
+{
+  "name": "Display Payload",
+  "isActive": true,
+  "description": null,
+  "requiresAuthentication": false,
+  "urlPattern": "display/payload",
+  "appliesTo": {
+    "get": true,
+    "put": false,
+    "post": false,
+    "delete": false
+  }
+}

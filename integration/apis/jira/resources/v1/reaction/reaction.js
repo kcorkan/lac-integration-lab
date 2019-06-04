@@ -85,18 +85,6 @@ obj.fields = fields;
 obj.inwardLinks = inwardLinks;
 obj.outwardLinks = outwardLinks;
 
-if (obj.reconcile_id){
-    //TODO: what if the object_id already exists with another xref_id? 
-    //TODO: what if something already exists with that xref_id? - throw an error for now 
-    //For now, we throw an error, if we want a different behavior, then we can update this depending on expectation
-    var exists = SysUtility.getResource('jiraObject',{sysfilter: ["equal_or(object_id:'" + obj.reconcile_id + "', xref_id:'" + obj.xref_id +"')","equal(system_ident:" + system_ident + ")"]});
-    if (exists && exists.length > 0){
-        throw "[Jira API][Resource: reaction] Cannot reconcile " + obj.reconcile_id + " for xref " + obj.xref_id + " becuase the object_id or xref_id is associated with another jira object.";    
-    }
-    obj.object_id = obj.reconcile_id;
-    obj.object_key = obj.object_key;
-    delete obj.reconcile_id;
-}
 log.debug("[Jira API][Resource: reaction] jiraObject: " + JSON.stringify(obj));
 
 var resp = SysUtility.restPut(req.fullBaseURL + '_toJira',null,gCFG.authHeaders,obj);

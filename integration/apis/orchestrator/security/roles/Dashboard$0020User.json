@@ -20,8 +20,8 @@
     "resource": {
       "isRestricted": true,
       "restrictedTo": [
-        "v1/displayReactions",
-        "v1/errorMessage"
+        "v1/errorMessage",
+        "v1/displayReactions"
       ]
     },
     "procedure": {

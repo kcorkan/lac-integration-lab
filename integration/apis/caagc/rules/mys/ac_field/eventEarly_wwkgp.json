@@ -14,5 +14,6 @@
   "title": "Event (Early): Set Reference from Reaction",
   "comments": "This will set the system value for both reference fields (e.g. Project, User, etc AND collection object fields (e.g. Predecessors, Successors)",
   "topics": [
+    "to Agile Central"
   ]
 }

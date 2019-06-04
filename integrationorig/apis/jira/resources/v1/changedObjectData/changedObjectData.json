@@ -1,0 +1,13 @@
+{
+  "name": "changedObjectData",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_object",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

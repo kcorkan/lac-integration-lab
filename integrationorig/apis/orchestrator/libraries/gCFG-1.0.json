@@ -1,0 +1,10 @@
+{
+  "name": "gCFG",
+  "version": "1.0",
+  "isUsedByProject": true,
+  "title": "globalConfigLibrary",
+  "description": "This is a JavaScript library",
+  "groupName": "newlib",
+  "docsURL": null,
+  "referenceURL": null
+}

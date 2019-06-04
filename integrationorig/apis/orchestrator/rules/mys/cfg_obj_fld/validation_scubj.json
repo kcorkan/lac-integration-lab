@@ -1,0 +1,15 @@
+{
+  "name": "validation_scubj",
+  "entity": "cfg_obj_fld",
+  "isActive": true,
+  "ruleType": "validation",
+  "codeType": "JavaScript",
+  "errorMessage": "There was a problem with validation because {ErrorDetails.errorMessage}\n({ErrorDetails.label}: {ErrorDetails.field} on {ErrorDetails.object_type})",
+  "problemAttributes": [
+  ],
+  "isAutoTitle": false,
+  "title": "Validation: validate not run from test",
+  "comments": null,
+  "topics": [
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "syncConfig",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "ac_sync_cfg",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

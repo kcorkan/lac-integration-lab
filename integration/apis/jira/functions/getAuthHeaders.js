@@ -8,9 +8,9 @@ var Base64={
 log.debug('system' + parseInt(parameters.system))
 var res = null;
 var system = SysUtility.getResource('system',{sysfilter: "equal(ident:" + parseInt(parameters.system) + ")"});
-if (system && system.username && system.pwd) {
+if (system && system.username && system.pw) {
     // TODO: deal with unicode
-    var credentials = Base64.encode(system.username +':'+ system.pwd);
+    var credentials = Base64.encode(system.username +':'+ system.pw);
 
     return {
         "headers": {

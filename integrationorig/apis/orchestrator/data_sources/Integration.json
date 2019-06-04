@@ -1,0 +1,32 @@
+{
+  "name": "Integration",
+  "prefix": "mys",
+  "title": "Managed Database Integration",
+  "databaseType": "DERBY",
+  "comments": null,
+  "isActive": true,
+  "isLogErrors": false,
+  "isSchemaEditable": true,
+  "isSupportBoolean": true,
+  "isReadOnly": false,
+  "useJNDIDataSource": false,
+  "url": "jdbc:derby:Integration",
+  "catalog": null,
+  "schema": "",
+  "username": "root",
+  "encryptedPassword": null,
+  "encryptedPasswordSalt": null,
+  "maximumConnections": 20,
+  "tableExcludes": null,
+  "tableIncludes": null,
+  "procedureExcludes": null,
+  "procedureIncludes": null,
+  "nonPersistentAttributes": {
+  },
+  "tableInfos": {
+  },
+  "viewInfos": {
+  },
+  "procedureInfos": {
+  }
+}

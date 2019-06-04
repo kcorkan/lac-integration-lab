@@ -1,0 +1,28 @@
+{
+  "name": "validateField",
+  "isActive": true,
+  "comments": "This function can only be called on the system resource and it validates a field given the field name and an object type.  This function is public and called by the orchestrator API.",
+  "returnType": "{\n            \"id\": foundField.id,\n            \"name\": foundField.name,\n            \"schema_type\": foundField.schema && foundField.schema.type,\n            \"object_type\": parameters.objectType,\n            \"system_ident\": row.ident\n }\n\nIf the field is not found, it returns an empty object {}",
+  "extendedProperties": null,
+  "parameters": {
+    "objectType": {
+      "parameterType": "string",
+      "isRequired": true,
+      "comments": "Enter description here"
+    },
+    "field": {
+      "parameterType": "string",
+      "isRequired": true,
+      "comments": "Enter description here"
+    },
+    "projectKey": {
+      "parameterType": "string",
+      "isRequired": false,
+      "comments": "Enter description here"
+    }
+  },
+  "functionType": "rowLevel",
+  "appliesTo": [
+    "system"
+  ]
+}

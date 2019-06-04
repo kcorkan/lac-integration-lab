@@ -1,0 +1,8 @@
+{
+  "name": "transformSpecJiraIssuePayload",
+  "description": "Transforms the output of a reaction object to a payload for updating or creating an issue in Jira. \n\n{\n  \"fields\" : {\n    \"project\" : \"KAP\",\n    \"summary\" : \"my name\",\n    \"issuetype\" : {\n      \"name\" : \"story\"\n    }\n  }\n}",
+  "siblingRank": 100,
+  "resourceType": "JavaScript",
+  "isCollection": false,
+  "joinCondition": null
+}

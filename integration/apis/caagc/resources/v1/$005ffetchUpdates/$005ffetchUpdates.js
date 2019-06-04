@@ -142,6 +142,13 @@ while (moreRecords){
         _fromPayload = JSON.parse(_fromPayload);
         total_records = total_records + _fromPayload.length;
         
+        //Add for Derby Database lab 
+        _.each(_fromPayload, function(p){
+            //p.last_updated = moment(p.last_updated).utc().format('YYYY-MM-DD HH:mm:ss');
+            log.debug('p' + p.last_updated);
+        });
+        //END Add for Derby Database 
+        
         log.info("[Agile Central API][Resource:_fetchUpdates] Saving page " + pageCounter + " of Agile Central records (Total so far: " + total_records +  ")" );
 
         SysUtility.restPut(req.fullBaseURL + '_fromAgileCentral',null,gCFG.authHeaders, _fromPayload);

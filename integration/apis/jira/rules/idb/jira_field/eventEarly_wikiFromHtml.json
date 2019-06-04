@@ -14,5 +14,6 @@
   "title": "Event (Early): Set system_value to wiki text for HTML",
   "comments": "We save as wiki in system_value because that's what jira likes and html in user_value because that's what we like.\n\nThis rule is fired when sending to Jira AND the field def's schema type is \"wiki\"",
   "topics": [
+    "From Jira"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "apiDef",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "api_def",
+  "isCollection": false,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

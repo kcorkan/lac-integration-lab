@@ -1,0 +1,39 @@
+{
+  "name": "errorMessage",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "status_message",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "message_text",
+      "attribute": "message_text",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "cfg_obj_name",
+      "attribute": "cfg_obj_name",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "reaction_ident",
+      "attribute": "reaction_ident",
+      "description": null,
+      "isKey": false
+    },
+    {
+      "name": "message_date",
+      "attribute": "message_date",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

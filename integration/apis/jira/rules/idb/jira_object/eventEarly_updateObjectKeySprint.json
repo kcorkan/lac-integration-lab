@@ -14,5 +14,7 @@
   "title": "Event (Early): Update object_key for Sprints",
   "comments": "We update the object_key for sprints to the object ID since a sprint has no object key.",
   "topics": [
+    "From Jira",
+    "To Jira"
   ]
 }

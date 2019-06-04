@@ -64,8 +64,8 @@ if (req.resourceName == "_fromAgileCentral" || req.resourceName === "_fromAgileC
         "equal(source_object_id:'" + catalyst.source_object_id + "')",
         "equal(source_object_type:'" + catalyst.source_object_type + "')",
         "equal(source_api_def_ident:" + gCFG.acApiDefIdent + ")",
-        "equal(source_system_ident:" + catalyst.source_system_ident + ")",
-        "equal(last_updated:'" + catalyst.last_updated + "')"
+        "equal(source_system_ident:" + catalyst.source_system_ident + ")" //,
+       // "equal(last_updated:'" + catalyst.last_updated + "')"
         ]});
     
     //Let's use a direct connection instead of a rest put: 

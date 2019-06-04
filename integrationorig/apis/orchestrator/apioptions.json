@@ -1,0 +1,12 @@
+{
+  "Page Size Default": {
+    "dataType": "integer",
+    "value": 100,
+    "defaultValue": 20
+  },
+  "Permit Authorization parameter in URL": {
+    "dataType": "boolean",
+    "value": true,
+    "defaultValue": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "classifier",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "mys",
+  "entity": "message_classifier",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": true
+}

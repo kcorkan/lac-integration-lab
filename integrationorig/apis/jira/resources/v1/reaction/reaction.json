@@ -1,0 +1,8 @@
+{
+  "name": "reaction",
+  "description": "Simple Issue Test Payload (no links): \n{\n    \"object_type\":\"Story\",\n    \"xref_id\":\"uniqueXrefid\",\n    \"system_ident\":1,\n    \"last_updated\":\"2018-09-02 12:01:01\",\n    \"target_data\": {\n            \"Project\":\"KAP\",\n            \"Summary\":\"my sample story\"\n    }\n\n}",
+  "siblingRank": 100,
+  "resourceType": "JavaScript",
+  "isCollection": true,
+  "joinCondition": null
+}

@@ -1,0 +1,40 @@
+{
+  "name": "outwardLinks",
+  "description": null,
+  "siblingRank": 100,
+  "resourceType": "TableBased",
+  "prefix": "idb",
+  "entity": "jira_link",
+  "join": "\"inward_ident\" = [\"ident\"]",
+  "isCollection": true,
+  "isCombined": false,
+  "filter": null,
+  "order": null,
+  "useSchemaAttributes": false,
+  "attributes": [
+    {
+      "name": "field_ident",
+      "attribute": "field_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "outward_ident",
+      "attribute": "outward_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "inward_ident",
+      "attribute": "inward_ident",
+      "description": null,
+      "isKey": true
+    },
+    {
+      "name": "last_updated",
+      "attribute": "last_updated",
+      "description": null,
+      "isKey": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "reaction",
+  "description": "{\n    \"object_type\":\"HierarchicalRequirement\",\n    \"xref_id\":\"myUniqueXrefID\",\n    \"system_ident\":1,\n    \"last_updated\":\"2018-09-02 12:02:01\",\n    \"target_data\": {\n        \"Project\": \"Cellular Imaging Module\",\n        \"Name\": \"My New Story\"\n    }\n}",
+  "siblingRank": 100,
+  "resourceType": "JavaScript",
+  "isCollection": true,
+  "joinCondition": null
+}

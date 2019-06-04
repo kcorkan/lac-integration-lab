@@ -4,7 +4,7 @@
   "startTimestampOffset": null,
   "endTimestampOffset": null,
   "isNoOverlap": true,
-  "isActive": true,
+  "isActive": false,
   "description": null,
   "maximumLogAgeSeconds": 2592000,
   "isSingleServer": true,

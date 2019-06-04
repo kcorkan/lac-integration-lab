@@ -1,0 +1,59 @@
+{
+  "name": "Dashboard User",
+  "description": null,
+  "defaultTablePermission": "N",
+  "defaultViewPermission": "N",
+  "defaultFunctionPermission": "N",
+  "globals": [
+  ],
+  "apiVisibility": {
+    "table": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "view": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "resource": {
+      "isRestricted": true,
+      "restrictedTo": [
+        "v1/displayReactions",
+        "v1/errorMessage"
+      ]
+    },
+    "procedure": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "metatable": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    },
+    "function": {
+      "isRestricted": true,
+      "restrictedTo": [
+      ]
+    }
+  },
+  "entityPermission": {
+    "status_message table": {
+      "entity": "mys:status_message",
+      "description": null,
+      "accessLevels": [
+        "READ"
+      ],
+      "rowFilter": null,
+      "columnFilter": {
+        "isRestricted": false,
+        "restrictedTo": null
+      }
+    }
+  },
+  "functionPermission": {
+  }
+}
